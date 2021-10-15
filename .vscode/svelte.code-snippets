@@ -1,0 +1,32 @@
+{
+  "build a component": {
+    "prefix": "com",
+    "body": [
+      "<script>",
+      "</script>",
+      "",
+      "<style>",
+      "\tdiv {",
+      "\t}",
+      "</style>",
+      "",
+      "<div>",
+      "\t$1",
+      "</div>",
+      ""
+    ]
+  },
+
+  "style tag": {
+    "body": "<style>\n\t$1\n</style>",
+    "prefix": "sty"
+  },
+  "script tag": {
+    "body": "<script>\n\t$1\n</script>",
+    "prefix": "scr"
+  },
+  "component content tag": {
+    "body": "<div>\n\t$1\n</div>",
+    "prefix": "div"
+  }
+}
